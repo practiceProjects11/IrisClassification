@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Alegreya+SC:wght@700&family=Cinzel+Decorative:wght@700&family=Inknut+Antiqua:wght@800&family=Kelly+Slab&family=Salsa&family=Sanchez&display=swap');
+           body{
+                justify-content: center;
+                align-items: center;
+                text-align:center;
+                display: flex;
+                min-height: 100vh;
+                margin:0;
+                font-size:large;
+                
+            }
+            .page{
+                border:none ;
+                padding: 100px;
+                border-radius: 20px ;
+                background-image: url('data:image/jpeg;base64,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');
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat;
+            }
+            input{
+                width: 150px;
+                height: 30px;
+                border:2px solid black;
+                border-radius: 15px ;
+                background-color: transparent;
+            }
+            button{
+                width: 290px;
+                height: 30px;
+                border:2px solid black;
+                background-color: rgb(137, 137, 253);
+                border-radius: 15px ;
+            }
+            h2{
+                font-family: "Inknut Antiqua", serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body>
+    <form id="classification" action="{{url_for('classification')}}" method="post">
+        <div class="page">
+            <h2>IRIS CLASSIFICATION</h2><br><br>
+            <label for="slength">Sepal Length:</label>
+            <input type="text" name="s-length" id="slength" ><br><br><br>
+            <label for="swidth">Sepal Width:</label>
+            <input type="text" name="s-width" id="swidth" ><br><br><br>
+            <label for="plength">Petal Length:</label>
+            <input type="text" name="p-length" id="plength" ><br><br><br>
+            <label for="pwidth">Petal Width:</label>
+            <input type="text" name="p-width" id="pwidth" ><br><br><br>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+    </body>
+
+
+</html>
